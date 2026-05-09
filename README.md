@@ -1,7 +1,7 @@
 # Egg Drift
 
 <p align="center">
-  <img src="/assets/title.png" width="240" alt="Egg Drift Title">
+  <img src="./assets/title.png" width="240" alt="Egg Drift Title">
 </p>
 
 <p align="center">
@@ -14,14 +14,14 @@ Merge matching creatures before the arena fills up in this chaotic radial puzzle
 ## Screenshots
 
 <p align="center">
-  <img src="/assets/1.PNG" width="180">
-  <img src="/assets/2.JPG" width="180">
-  <img src="/assets/3.JPG" width="180">
+  <img src="./assets/1.PNG" width="180">
+  <img src="./assets/2.JPG" width="180">
+  <img src="./assets/3.JPG" width="180">
 </p>
 
 <p align="center">
-  <img src="/assets/4.PNG" width="180">
-  <img src="/assets/5.JPG" width="180">
+  <img src="./assets/4.png" width="180">
+  <img src="./assets/5.JPG" width="180">
 </p>
 
 ---
