@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Egg Drift</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(to bottom, #f8d9ff, #d8e8ff);
+      color: black;
+      overflow-x: hidden;
+    }
+
+    .container {
+      width: 100%;
+      margin: 0 auto;
+      padding: 24px 20px 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+        background-image: url("/assets/bg-1.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .hero {
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      line-height: 0.9;
+      font-weight: 900;
+      text-shadow:
+        0 4px 0 rgba(114, 45, 142, 0.9),
+        0 8px 20px rgba(0,0,0,0.15);
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      padding: 0 8px;
+    }
+
+    .carousel-wrapper {
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .carousel {
+      display: flex;
+      gap: 16px;
+      padding-bottom: 8px;
+    }
+
+    .carousel img {
+      width: 260px;
+      border-radius: 28px;
+      flex-shrink: 0;
+      scroll-snap-align: center;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+
+    .feature-card {
+      background: rgba(255,255,255,0.18);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 22px;
+      padding: 18px;
+    }
+
+    .feature-card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+
+    .feature-card p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      opacity: 0.95;
+    }
+
+    .download {
+      text-align: center;
+      margin-top: 12px;
+    }
+
+    .download a {
+      display: inline-block;
+      background: white;
+      color: #6f3acb;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 16px 28px;
+      border-radius: 999px;
+      font-size: 1rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+      transition: transform 0.2s ease;
+    }
+
+    .download a:hover {
+      transform: translateY(-2px);
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.8);
+      padding-top: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <section class="hero">
+        <img src="/assets/title.png" alt="Egg Drift Gameplay 1" width="240">
+
+      <p>
+        Tilt your device to steer evolving capsule creatures outward from the center.
+        <br/>
+        Merge matching creatures before the arena fills up in this chaotic radial puzzle experience.
+      </p>
+    </section>
+
+    <section class="carousel-wrapper">
+      <div class="carousel">
+        <img src="/assets/1.PNG" alt="Egg Drift Gameplay 1">
+        <img src="/assets/2.JPG" alt="Egg Drift Gameplay 2">
+        <img src="/assets/3.JPG" alt="Egg Drift Gameplay 3">
+        <img src="/assets/4.PNG" alt="Egg Drift Gameplay 4">
+        <img src="/assets/5.JPG" alt="Egg Drift Gameplay 5">
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature-card">
+        <h3>🌀 Radial Physics</h3>
+        <p>
+          Everything pushes outward from the center like a spinning cone arena.
+          A fresh twist on merge puzzle gameplay.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <h3>📱 Motion Controls</h3>
+        <p>
+          Tilt your phone to drift creatures into strategic collisions and chain merges.
+        </p>
+      </div>
+
+      <div class="feature-card">
+        <h3>✨ Endless Evolution</h3>
+        <p>
+          Combine adorable capsule creatures into bigger and rarer forms before space runs out.
+        </p>
+      </div>
+    </section>
+
+    <!-- <section class="download">
+      <a href="https://apps.apple.com/" target="_blank">
+        Download on the App Store
+      </a>
+    </section> -->
+
+    <footer>
+      © 2026 Itsuki
+    </footer>
+
+  </div>
+
+</body>
+</html>
