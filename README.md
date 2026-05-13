@@ -42,11 +42,11 @@ Tilt your phone to drift creatures into strategic collisions and chain merges.
 Combine adorable capsule creatures into bigger and rarer forms before space runs
 out.
 
-<!-- ---
+---
 
 ## Download
 
-[Download on the App Store](https://apps.apple.com/) -->
+[Download on the App Store](https://apps.apple.com/us/app/id6767761886)
 
 ---
 
